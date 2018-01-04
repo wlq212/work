@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Streamedian player example</title>
+    <style>
+        #test_video {
+            width: 720px;
+        }
+        html, body {
+            height: 100%;
+        }
+
+    </style>
+    <script src="https://cdn.bootcss.com/babel-polyfill/7.0.0-beta.2/polyfill.min.js"></script>
+    <script src="streamedian.min.js"></script>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script src="layer.js"></script>
+    <!--<link href="cesium/Build/Cesium/Widgets/widgets.css" type="text/css">-->
+    <script src="cesium/Build/Cesium/Cesium.js"></script>
+
+    <script>
+     function ale() {
+         layer.open({
+             id:"one",
+             type: 1,
+             title: ['视频', 'font-size:18px;','background:'],
+             content:['overflow-x:hidden;'],
+             area: ['800px', '510px'],
+             shade:0,
+             tipsMore:true,
+             content: $("#onepp") //这里content是一个DOM，注意：最好该元素要存放在body最外层，否则可能被其它的相对元素所影响,
+             ,cancel: function(){
+                 $('#onepp').html("");
+             }
+         });
+     }
+//            $("#one").on("click",function () {
+//                alert(1)
+//
+//            })
+
+//        })
+    </script>
+</head>
+<body>
+<div id="onepp" style="display: none;">
+    <video id="test_video" controls autoplay  style="object-fit: fill;">
+        <source src="rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov" type="application/x-rtsp">
+        <!--<source src="rtsp://184.72.239.149/vod/mp4:BigBuckBunny_175k.mov" type="application/x-rtsp">-->
+    </video>
+</div>
+<div id="mapId1">
+
+</div>
+<div id="abc" style="width:200px;height:200px;border:5px solid #E9F47B;">这里是200*200的闪烁框</div>
+<script>
+    var i=0;
+    function shine(id){
+        var obj= document.getElementById(id);
+        if(i==0){obj.style.borderColor="#E9F47B";i=1;}else{obj.style.borderColor="red";i=0}
+    }
+    setInterval("shine('abc')",100);//边框变化时间，100可以根据情况调整大小
+</script>
+<button id="One" onclick="ale()">One</button>
+<!--<script>-->
+
+    <!--Cesium.Camera.DEFAULT_VIEW_RECTANGLE = Cesium.Rectangle.fromDegrees(120.1469, 30.7750, 120.1801, 30.7876);-->
+    <!--Cesium.Camera.DESTINATION = Cesium.Cartesian3.fromDegrees(120.1653,30.7826,3824.0000);-->
+    <!--Cesium.Camera.DEFAULT_VIEW_FACTOR = 0.0006;-->
+    <!--viewer = new Cesium.Viewer(mapId1, {-->
+        <!--imageryProvider : new Cesium.TiandituImageryProvider({}),-->
+        <!--baseLayerPicker : false,-->
+        <!--geocoder : false,-->
+        <!--infoBox : false-->
+    <!--});-->
+    <!--var p = Streamedian.player('test_video', {socket:  "wss://specforge.com/ws/"})-->
+<!--</script>-->
+
+</body>
+</html>

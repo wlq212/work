@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $.get("http://192.168.14.227:8080/layerlabel/camera/czml",function(data,status){
+      console.log(data)
+        });
+      });
+    });
+    $(this).removeC
+  </script>
+</head>
+<body>
+
+<button>向页面发送 HTTP GET 请求，然后获得返回的结果</button>
+
+</body>
+</html>
