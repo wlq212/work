@@ -22,21 +22,6 @@ react + redux + react-router + webpack + ES6/7 + fetch + less + flex
 #### 注意：由于涉及大量的 ES6/7 等新属性，nodejs 必须是 6.0 以上版本 ，node 7 是先行版，有可能会出问题，建议使用 node 6 稳定版
 
 ```
-git clone https://github.com/duxianwei520/react.git  
-
-cd react （进入当前的项目）
-
-npm install  (安装依赖包)
-
-npm start (运行本地开发环境)
-
-npm run build (打包)
-
-另开启一个命令窗口 启动node的本地json数据代理服务
-
-node mockserver.js (前端本地用node模拟接口进程)
-
-```
 
 
 ## 说明
@@ -50,9 +35,7 @@ node mockserver.js (前端本地用node模拟接口进程)
 npm install -g cnpm --registry=https://registry.npm.taobao.org 
 
 ```
-如果这个方法还不行的话，可以到我的百度网盘上面去下载我已经压缩好的npm依赖包，地址是
-``` 
-http://pan.baidu.com/s/1pLdPWgj
+
 
 ```
 把下载到本地的node_modules.rar文件直接解压到跟app同级的当前文件夹，记住是当前文件夹的，然后不用npm install就可以直接npm start跑起来项目了。
@@ -89,27 +72,27 @@ http://pan.baidu.com/s/1pLdPWgj
 
 ### 登录页
 
-<img src="https://github.com/duxianwei520/react/blob/master/screenshots/login.png" width="704" height="561"/> 
+<img src="https://github.com/wlq212/work/tree/master/app/react-master/screenshots/login.png" width="704" height="561"/> 
 
 
 ### 欢迎页
 
-<img src="https://github.com/duxianwei520/react/blob/master/screenshots/welcome.png" width="1010" height="566"/>
+<img src="https://github.com/wlq212/work/tree/master/app/react-master/screenshots/welcome.png" width="1010" height="566"/>
 
 
 
 ### 列表页
 
-<img src="https://github.com/duxianwei520/react/blob/master/screenshots/list.png" width="1002" height="582"/>
+<img src="https://github.com/wlq212/work/tree/master/app/react-master/screenshots/list.png" width="1002" height="582"/>
 
 ### 请求接口
 
-<img src="https://github.com/duxianwei520/react/blob/master/screenshots/requestData.png" width="885" height="590"/>
+<img src="https://github.com/wlq212/work/tree/master/app/react-master/screenshots/requestData.png" width="885" height="590"/>
 
 
 ### 接口按返回
 
-<img src="https://github.com/duxianwei520/react/blob/master/screenshots/receiveData.png" width="997" height="586"/>
+<img src="https://github.com/wlq212/work/tree/master/app/react-master/screenshots/receiveData.png" width="997" height="586"/>
 
 
 
@@ -222,4 +205,4 @@ http://pan.baidu.com/s/1pLdPWgj
 
 ## License
 
-[GPL](https://github.com/duxianwei520/react/blob/master/COPYING)
+[GPL](https://github.com/wlq212/work/tree/master/app/react-master)

@@ -11,7 +11,7 @@ __注：此项目纯属个人瞎搞，不用于任何商业用途。__
 
 # 说明
 
->  node-elm 接口文档: [接口文档地址](https://github.com/bailicangdu/node-elm/blob/master/API.md) 
+>  node-elm 接口文档: [接口文档地址](https://github.com/wlq212/work/tree/master/app/node-elm-master/API.md) 
 
 >  如果对您对此项目有兴趣，可以点 "Star" 支持一下 谢谢！ ^_^
 
@@ -23,7 +23,7 @@ __注：此项目纯属个人瞎搞，不用于任何商业用途。__
 
 >  如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
 
->  相关项目地址：[前端项目地址](https://github.com/bailicangdu/vue2-elm)  、 [后台管理系统地址](https://github.com/bailicangdu/back-manage)
+>  相关项目地址：[前端项目地址](https://github.com/wlq212/work/tree/master/app/vue-app)  、 [后台管理系统地址](https://github.com/wlq212/work/tree/master/app/vue-app-manage)
 
 >  接下来的开源项目[react-native 构建的原生APP](https://github.com/bailicangdu/RN-elm)也是以此后台系统作为基础，因为APP拥有更多功能以及细粒度的操作，因此后台系统会不断扩展更多接口和功能。
 
@@ -41,18 +41,6 @@ nodejs + express + mongodb + mongoose + es6/7 + vue + element-ui
 3、GraphicsMagick (裁切图片)
 ```
 
-```
-git clone https://github.com/bailicangdu/node-elm  
-
-cd node-elm
-
-npm install
-
-npm run dev
-
-访问: http://localhost:8001
-
-```
 
 
 # 效果演示
@@ -64,7 +52,7 @@ npm run dev
 
 ###### 移动端扫描下方二维码
 
-<img src="https://github.com/bailicangdu/node-elm/blob/master/screenshots/ewm.png" width="250" height="250"/>
+<img src="https://github.com/wlq212/work/tree/master/app/node-elm-master/screenshots/ewm.png" width="250" height="250"/>
 
 ### 后台管理系统网址
 [后台管理网址戳这里](http://cangdu.org/manage/)
@@ -106,7 +94,7 @@ npm run dev
 
 # API接口文档
 
-## [接口文档地址](https://github.com/bailicangdu/node-elm/blob/master/API.md)
+## [接口文档地址](https://github.com/wlq212/work/tree/master/app/node-elm-master/API.md)
 
 
 
@@ -116,13 +104,13 @@ npm run dev
 
 #### 部分前台页面
 
-<img src="https://github.com/bailicangdu/node-elm/blob/master/screenshots/elm_msite.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/node-elm/blob/master/screenshots/elm_shop.png" width="365" height="619"/>
+<img src="https://github.com/wlq212/work/tree/master/app/node-elm-master/screenshots/elm_msite.png" width="365" height="619"/> <img src="https://github.com/bailicangdu/node-elm/blob/master/screenshots/elm_shop.png" width="365" height="619"/>
 
 #### 部分后台管理系统页面
 
-<img src="https://github.com/bailicangdu/node-elm/blob/master/screenshots/manage_home.png"/>
+<img src="https://github.com/wlq212/work/tree/master/app/node-elm-master/screenshots/manage_home.png"/>
 
-<img src="https://github.com/bailicangdu/node-elm/blob/master/screenshots/manage_shop.png"/>
+<img src="https://github.com/wlq212/work/tree/master/app/node-elm-master/screenshots/manage_shop.png"/>
 
 
 
@@ -257,6 +245,6 @@ npm run dev
 
 # License
 
-[GPL](https://github.com/bailicangdu/node-elm/blob/master/COPYING)
+[GPL](https://github.com/wlq212/work/tree/master/app/node-elm-master)
 
 

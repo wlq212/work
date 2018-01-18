@@ -3,19 +3,6 @@
   react + redux + webpack + react-router + ES6/7/8 + immutable
 
 
-## 运行项目（nodejs 6.0+）
-
-```
- git clone https://github.com/bailicangdu/react-pxq.git
-
- cd react-pxq
-
- npm i
-  
- npm start
-
- npm run build （发布）
-```
 
 
 ## 说明
@@ -30,9 +17,7 @@
 
 >  开发环境 macOS 10.13.1  Chrome 63  nodejs 8.9.1
 
->  推荐一个 vue2 + vuex 构建的 45 个页面的大型开源项目。[地址在这里](https://github.com/bailicangdu/vue2-elm)
 
->  另外一个 vue2 + vuex 的简单项目，非常适合入门练习。[地址在这里](https://github.com/bailicangdu/vue2-happyfri)
 
 
 ## 演示
@@ -40,7 +25,7 @@
 [查看演示效果](http://cangdu.org/pxq/)（请用chrome的手机模式预览）
 
 ### 移动端扫描下方二维码
-![](https://github.com/bailicangdu/pxq/blob/master/screenshot/demo.png)
+![](https://github.com/wlq212/work/tree/master/app/react-pxq-master/screenshot/demo.png)
 
 
 
@@ -65,7 +50,7 @@ react的diff算法用在什么地方呢？当组件更新的时候，react会创
 
 对于列表的diff算法稍有不同，因为列表通常具有相同的结构，在对列表节点进行删除，插入，排序的时候，单个节点的整体操作远比一个个对比一个个替换要好得多，所以在创建列表的时候需要设置key值，这样react才能分清谁是谁。当然不写key值也可以，但这样通常会报出警告，通知我们加上key值以提高react的性能。
 
-![](https://github.com/bailicangdu/pxq/blob/master/screenshot/diff.png)
+![](https://github.com/wlq212/work/tree/master/app/react-pxq-master/screenshot/diff.png)
 
 
 
@@ -74,7 +59,7 @@ react的diff算法用在什么地方呢？当组件更新的时候，react会创
 
 组件的创造方法为React.createClass() ——创造一个类，react系统内部设计了一套类系统，利用它来创造react组件。但这并不是必须的，我们还可以用es6的class类来创造组件,这也是Facebook官方推荐的写法。
 
-![](https://github.com/bailicangdu/pxq/blob/master/screenshot/icon_class.png)
+![](https://github.com/wlq212/work/tree/master/app/react-pxq-master/screenshot/icon_class.png)
 
 这两种写法实现的功能一样但是原理却是不同，es6的class类可以看作是构造函数的一个语法糖，可以把它当成构造函数来看，extends实现了类之间的继承 —— 定义一个类Main 继承React.Component所有的属性和方法，组件的生命周期函数就是从这来的。constructor是构造器，在实例化对象时调用，super调用了父类的constructor创造了父类的实例对象this，然后用子类的构造函数进行修改。这和es5的原型继承是不同的，原型继承是先创造一个实例化对象this，然后再继承父级的原型方法。了解了这些之后我们在看组件的时候就清楚很多。
 
@@ -87,7 +72,7 @@ react的diff算法用在什么地方呢？当组件更新的时候，react会创
 
 ## 组件的生命周期
 
-![](https://github.com/bailicangdu/pxq/blob/master/screenshot/react-lifecycle.png)
+![](https://github.com/wlq212/work/tree/master/app/react-pxq-master/screenshot/react-lifecycle.png)
 
 **组件在初始化时会触发5个钩子函数：**
 
@@ -366,7 +351,7 @@ import { Router, Route, Redirect, IndexRoute, browserHistory, hashHistory } from
 
 通常我们在顶层的ui组件打印props时可以看到一堆属性：
 
-![](https://github.com/bailicangdu/pxq/blob/master/screenshot/react_props.png)
+![](https://github.com/wlq212/work/tree/master/app/react-pxq-master/screenshot/react_props.png)
 
 上图的顶层ui组件属性总共有18个，如果刚刚接触react，可能对这些属性怎么来的感到困惑，其实这些属性来自五个地方：
 

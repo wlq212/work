@@ -1,7 +1,7 @@
 
 # About
 
-此项目是 vue + element-ui 构建的后台管理系统，是后台项目[node-elm](https://github.com/bailicangdu/node-elm) 的管理系统，所有的数据都是从服务器实时获取的真实数据，具有真实的注册、登陆、管理数据、权限验证等功能。
+此项目是 vue + element-ui 构建的后台管理系统，是后台项目[node-elm](https://github.com/wlq212/work/tree/master/app/node-elm-master) 的管理系统，所有的数据都是从服务器实时获取的真实数据，具有真实的注册、登陆、管理数据、权限验证等功能。
 
 
 # 说明
@@ -14,7 +14,7 @@
 
 >  如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
 
->  传送门：[前端项目地址](https://github.com/bailicangdu/vue2-elm)  、 [后台系统地址](https://github.com/bailicangdu/node-elm)  、 [原生APP项目地址](https://github.com/bailicangdu/RN-elm)
+>  传送门：[前端项目地址](https://github.com/wlq212/work/tree/master/app/vue-app)  、 [后台系统地址](https://github.com/wlq212/work/tree/master/app/node-elm-master) 
 
 
 
@@ -23,24 +23,6 @@
 vue2 + vuex + vue-router + webpack + ES6/7 + less + element-ui
 
 
-## 项目运行
-
-
-```
-git clone https://github.com/bailicangdu/vue2-manage  
-
-cd vue2-manage  
-
-npm install
-
-npm run dev (访问线上后台系统)
-
-npm run local (访问本地后台系统，需运行node-elm后台系统)
-
-
-访问: http://localhost:8002
-
-```
 
 
 # 效果演示
@@ -55,7 +37,7 @@ npm run local (访问本地后台系统，需运行node-elm后台系统)
 
 ###### 移动端扫描下方二维码
 
-![](https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/ewm.png)
+![](https://github.com/wlq212/work/tree/master/app/vue-app-manage/screenshots/ewm.png)
 
 
 # 功能列表
@@ -76,12 +58,10 @@ npm run local (访问本地后台系统，需运行node-elm后台系统)
 ## 部分截图
 
 
-<img src="https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/manage_home.png"/>
+<img src="https://github.com/wlq212/work/tree/master/app/vue-app-manage/screenshots/manage_home.png"/>
 
-<img src="https://github.com/bailicangdu/vue2-manage/blob/master/screenshots/manage_shop.png"/>
+<img src="https://github.com/wlq212/work/tree/master/app/vue-app-manage/screenshots/manage_shop.png"/>
 
 
 
-## License
 
-[GPL](https://github.com/bailicangdu/vue2-manage/blob/master/COPYING)
