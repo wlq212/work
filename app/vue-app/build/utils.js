@@ -22,7 +22,6 @@ exports.cssLoaders = function(options) {
             }
             return loader + (options.sourceMap ? extraParamChar + 'sourceMap' : '')
         }).join('!')
-
         // (which is the case during production build)
         if (options.extract) {
             return ExtractTextPlugin.extract('vue-style-loader', sourceLoader)

@@ -15,8 +15,7 @@ const FormItem = Form.Item
 )
 @Form.create({
   onFieldsChange(props, items) {
-    // console.log(items)
-    // props.cacheSearch(items);
+
   },
 })
 
@@ -139,7 +138,6 @@ export default class Login extends Component {
                           type="password"
                         />
                         )}
-
                     </FormItem>
                     <FormItem>
                       <Button type="primary" htmlType="submit">登录</Button>

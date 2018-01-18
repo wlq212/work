@@ -9,5 +9,5 @@ const reduxRouterMiddleware = routerMiddleware(history)
 export {
     reduxRouterMiddleware,
     logger,
-    router,
+    router
 }

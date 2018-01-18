@@ -4,8 +4,6 @@
  * @Last Modified by: dupi
  * @Last Modified time: 2017-06-27 15:09:38
  */
-
-
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
@@ -20,7 +18,7 @@ export default class welcome extends Component {
   constructor(props, context) {
     super(props)
     this.state = {
-      data: {},
+      data:{},
     }
   }
 

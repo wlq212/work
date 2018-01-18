@@ -12,7 +12,6 @@ const SubMenu = Menu.SubMenu
     (dispatch) => ({ actions: bindActionCreators(routerActions, dispatch), dispatch: dispatch })
 )
 export default class LeftNav extends Component {
-
   constructor(props, context) {
     super(props, context)
 

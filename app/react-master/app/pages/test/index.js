@@ -10,9 +10,7 @@ import ReactDom from 'react-dom'
 import { connect } from 'react-redux'
 import { Cascader, Select, Row, Col, Checkbox, Button } from 'antd'
 
-
 import Sub from './sub'
-
 @connect(
     (state, props) => ({
       config: state.config,

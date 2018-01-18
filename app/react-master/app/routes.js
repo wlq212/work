@@ -17,30 +17,24 @@ import Welcome from './pages/welcome'
 // import popCheck from './pages/pop/index'
 
 const houseManage = (location, cb) => {
-  require.ensure([], require => {
-    cb(null, require('./pages/house/houseManage').default)
-  }, 'houseManage')
+  require.ensure([], require => {cb(null, require('./pages/house/houseManage').default)}, 'houseManage')
 }
 
 
 const Login = (location, cb) => {
-  require.ensure([], require => {
-    cb(null, require('./containers/App/login').default)
-  }, 'login')
+  require.ensure([], require => {cb(null, require('./containers/App/login').default)}, 'login')
 }
 
 
 const test = (location, cb) => {
-  require.ensure([], require => {
-    cb(null, require('./pages/test').default)
-  }, 'test')
+  require.ensure([], require => {cb(null, require('./pages/test').default)}, 'test')
 }
 
 /* 进入路由的判断*/
 function isLogin(nextState, replaceState) {
   const token = sessionStorage.getItem('token')
   if (!token) {
-    replaceState('/login')
+    replaceState('/login');
     // hashHistory.push('/login')
   }
 }
@@ -50,9 +44,7 @@ const routes = (
     <Route path="/" component={App} onEnter={isLogin}>
       <IndexRoute component={Welcome} />
       <Route path="/houseManage" getComponent={houseManage} />
-
-      <Route path="/test" getComponent={test} query={{'name': 'dupi'}} />
-
+      <Route path="/test" getComponent={test}  qery={{'name': 'dupi'}} />
     </Route>
     <Route path="/login" getComponent={Login}></Route>
   </Route>

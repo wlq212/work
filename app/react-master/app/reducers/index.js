@@ -21,14 +21,10 @@ const rootReducer = combineReducers({
   routing,
   config: (state = {}) => state,
   tabListResult,
-
   loginResponse,
-
   houseCheckSearchResult,
   houseCheckSearchQuery,
-  houseDetailResult,
-
-
+  houseDetailResult
 });
 
 export default rootReducer;
