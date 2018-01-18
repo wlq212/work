@@ -36,7 +36,7 @@ npm run build
 
 ### 首页
 <center>
-<img src="https://github.com/wlq212/work/tree/master/app/vue.news-master/static/eg1.jpg" width='375' height='667'/>
+<img src="https://github.com/wlq212/work/blob/master/app/vue.news-master/static/eg1.jpg" width='375' height='667'/>
 </center>
 
 ### 菜单
